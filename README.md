@@ -40,29 +40,32 @@ This project automates the entire process using **Agentic AI**.
 - **Architecture**: Agentic AI with specialized agents
 
 
+## Project Structure
+
+```bash
 intelligent-email-automation/
 │
-├── agents/                    # AI Agents
+├── agents/                  # AI Agents
 │   ├── email_understanding_agent.py
 │   └── validation_agent.py
-├── apis/                      # Mock Core Banking APIs
+├── apis/                    # Mock Core Banking APIs
 │   └── mock_apis.py
-├── models/                    # Data schemas (Pydantic)
+├── models/                  # Data schemas (Pydantic)
 │   └── schemas.py
-├── prompts/                   # LLM Prompts
+├── prompts/                 # LLM Prompts
 │   └── intent_prompt.py
-├── workflows/                 # Main orchestration logic
+├── workflows/               # Main orchestration logic
 │   └── banking_workflow.py
-├── utils/                     # Helper functions & logging
+├── utils/                   # Helper functions & logging
 │   └── helpers.py
-├── tests/                     # Test cases
+├── tests/                   # Test cases
 │   └── test_scenarios.py
-├── config/                    # Configuration
+├── config/                  # Configuration
 │   └── settings.py
-├── logs/                      # Audit logs
+├── logs/                    # Audit logs
 │   └── app.log
-├── app.py                    
-├── main.py                    
+├── app.py
+├── main.py
 ├── requirements.txt
 └── README.md
 
