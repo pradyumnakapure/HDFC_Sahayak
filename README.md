@@ -297,20 +297,20 @@ http://127.0.0.1:8000/docs
 Customer requests account balance.
 
 **Result:**  
-Intent detected → account validated → balance API called → response generated.
+Intent detected -> account validated -> balance API called -> response generated.
 
 ---
 
-## Scenario 2 — Credit Card Transactions
+## Scenario 2 Credit Card Transactions
 
 Customer requests recent card transactions.
 
 **Result:**  
-Card validated → transaction API called → response generated.
+Card validated -> transaction API called -> response generated.
 
 ---
 
-## Scenario 3 — Statement Request
+## Scenario 3 Statement Request
 
 Customer requests account statement.
 
@@ -319,7 +319,7 @@ Statement workflow executed successfully.
 
 ---
 
-## Scenario 4 — Multiple Requests
+## Scenario 4 Multiple Requests
 
 Single email containing:
 
@@ -331,7 +331,7 @@ Multiple intents detected and processed independently.
 
 ---
 
-## Scenario 5 — Partial Failure
+## Scenario 5 Partial Failure
 
 Input contains:
 
