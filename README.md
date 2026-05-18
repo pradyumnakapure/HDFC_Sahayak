@@ -1,7 +1,7 @@
 # Intelligent Email Processing & Automated Customer Response System
 
 **Task – 1001**  
-**Date:** 16-05-2026
+**Date:** 16-May-2026
 
 HDFC Sahayak - An Banking Email Automation Agent built using **Agentic AI architecture**, **Llama 3.2**, **CrewAI**, and **Python**.
 
