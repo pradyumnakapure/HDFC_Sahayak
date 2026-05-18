@@ -1,0 +1,635 @@
+2026-05-16 12:18:26,110 - INFO - BankingEmailWorkflow initialized
+2026-05-16 12:18:26,111 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-16 12:18:34,698 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 12:18:34,728 - INFO - Balance API called successfully
+2026-05-16 12:18:34,728 - INFO - Email processed successfully
+2026-05-16 12:18:34,730 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-16 12:18:39,198 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 12:18:39,219 - INFO - Card transactions API called (5 txns)
+2026-05-16 12:18:39,229 - INFO - Email processed successfully
+2026-05-16 12:18:39,229 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-16 12:18:45,262 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 12:18:45,282 - INFO - Balance API called successfully
+2026-05-16 12:18:45,283 - INFO - Card transactions API called (5 txns)
+2026-05-16 12:18:45,283 - INFO - Email processed successfully
+2026-05-16 12:18:45,284 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-16 12:18:52,828 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 12:18:52,849 - INFO - Balance API called successfully
+2026-05-16 12:18:52,850 - INFO - Email processed successfully
+2026-05-17 09:58:43,279 - INFO - BankingEmailWorkflow initialized
+2026-05-17 09:58:47,617 - INFO - BankingEmailWorkflow initialized
+2026-05-17 10:00:29,214 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-17 10:00:59,375 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:00:59,406 - INFO - Balance API called successfully
+2026-05-17 10:00:59,407 - INFO - Email processed successfully
+2026-05-17 10:26:04,787 - INFO - BankingEmailWorkflow initialized
+2026-05-17 10:26:04,788 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-17 10:26:13,980 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:26:14,017 - INFO - Balance API called successfully
+2026-05-17 10:26:14,017 - INFO - Email processed successfully
+2026-05-17 10:26:14,018 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-17 10:26:18,552 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:26:18,572 - INFO - Card transactions API called (5 txns)
+2026-05-17 10:26:18,572 - INFO - Email processed successfully
+2026-05-17 10:26:18,573 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-17 10:26:24,481 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:26:24,500 - INFO - Balance API called successfully
+2026-05-17 10:26:24,501 - INFO - Card transactions API called (5 txns)
+2026-05-17 10:26:24,501 - INFO - Email processed successfully
+2026-05-17 10:26:24,501 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-17 10:26:29,765 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:26:29,784 - INFO - Balance API called successfully
+2026-05-17 10:26:29,784 - INFO - Email processed successfully
+2026-05-17 10:30:04,763 - INFO - BankingEmailWorkflow initialized
+2026-05-17 10:30:08,300 - INFO - BankingEmailWorkflow initialized
+2026-05-17 10:30:34,320 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-17 10:30:42,132 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:30:42,181 - INFO - Balance API called successfully
+2026-05-17 10:30:42,182 - INFO - Email processed successfully
+2026-05-17 10:31:24,052 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-17 10:31:31,852 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:31:31,889 - INFO - Balance API called successfully
+2026-05-17 10:31:31,889 - INFO - Card transactions API called (5 txns)
+2026-05-17 10:31:31,889 - INFO - Email processed successfully
+2026-05-17 10:32:05,312 - INFO - Processing email: Kindly send my bank statement for April 2026....
+2026-05-17 10:32:11,746 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:32:11,796 - INFO - Email processed successfully
+2026-05-17 10:32:49,002 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-17 10:32:55,623 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:32:55,664 - INFO - Card transactions API called (5 txns)
+2026-05-17 10:32:55,664 - INFO - Email processed successfully
+2026-05-17 10:36:16,358 - INFO - BankingEmailWorkflow initialized
+2026-05-17 10:36:20,106 - INFO - BankingEmailWorkflow initialized
+2026-05-17 10:36:22,704 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-17 10:36:29,815 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:36:29,851 - INFO - Card transactions API called (5 txns)
+2026-05-17 10:36:29,851 - INFO - Email processed successfully
+2026-05-17 10:39:05,069 - INFO - BankingEmailWorkflow initialized
+2026-05-17 10:39:05,069 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-17 10:39:12,177 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:39:12,206 - INFO - Balance API called
+2026-05-17 10:39:12,206 - INFO - Email processed successfully
+2026-05-17 10:39:12,207 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-17 10:39:16,911 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:39:16,930 - INFO - Card transactions API called (5 txns)
+2026-05-17 10:39:16,930 - INFO - Email processed successfully
+2026-05-17 10:39:16,930 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-17 10:39:24,323 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:39:24,343 - INFO - Balance API called
+2026-05-17 10:39:24,343 - INFO - Card transactions API called (5 txns)
+2026-05-17 10:39:24,344 - INFO - Email processed successfully
+2026-05-17 10:39:24,344 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-17 10:39:29,897 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:39:29,923 - INFO - Balance API called
+2026-05-17 10:39:29,923 - INFO - Email processed successfully
+2026-05-17 10:44:14,787 - INFO - BankingEmailWorkflow initialized
+2026-05-17 10:44:14,788 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-17 10:44:21,907 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:44:21,945 - INFO - Balance API called
+2026-05-17 10:44:21,945 - INFO - Email processed successfully
+2026-05-17 10:44:21,947 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-17 10:44:26,753 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:44:26,780 - INFO - Card transactions API called (5 txns)
+2026-05-17 10:44:26,780 - INFO - Email processed successfully
+2026-05-17 10:44:26,782 - INFO - Processing email: Kindly send my bank statement for April 2026....
+2026-05-17 10:44:32,529 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:44:32,550 - INFO - Statement API called for period: April 2026
+2026-05-17 10:44:32,550 - INFO - Email processed successfully
+2026-05-17 10:44:32,551 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-17 10:44:39,688 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:44:39,712 - INFO - Balance API called
+2026-05-17 10:44:39,712 - INFO - Card transactions API called (3 txns)
+2026-05-17 10:44:39,712 - INFO - Email processed successfully
+2026-05-17 10:44:39,714 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-17 10:44:46,358 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:44:46,393 - INFO - Balance API called
+2026-05-17 10:44:46,394 - INFO - Email processed successfully
+2026-05-17 10:54:43,106 - INFO - BankingEmailWorkflow initialized
+2026-05-17 10:54:43,107 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-17 10:54:52,901 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:54:52,961 - INFO - Balance API called
+2026-05-17 10:54:52,961 - INFO - Email processed successfully
+2026-05-17 10:54:52,962 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-17 10:54:58,343 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:54:58,367 - INFO - Card transactions API called (5 txns)
+2026-05-17 10:54:58,367 - INFO - Email processed successfully
+2026-05-17 10:54:58,367 - INFO - Processing email: Kindly send my bank statement for April 2026....
+2026-05-17 10:55:04,494 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:55:04,513 - INFO - Statement API called for period: April 2026
+2026-05-17 10:55:04,514 - INFO - Email processed successfully
+2026-05-17 10:55:04,514 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-17 10:55:12,367 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:55:12,395 - INFO - Balance API called
+2026-05-17 10:55:12,395 - INFO - Card transactions API called (5 txns)
+2026-05-17 10:55:12,395 - INFO - Email processed successfully
+2026-05-17 10:55:12,401 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-17 10:55:20,182 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 10:55:20,209 - INFO - Balance API called
+2026-05-17 10:55:20,210 - INFO - Email processed successfully
+2026-05-17 11:13:34,225 - INFO - BankingEmailWorkflow initialized
+2026-05-17 11:13:34,226 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-17 11:13:43,462 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:13:43,522 - INFO - Balance API called
+2026-05-17 11:13:43,522 - INFO - Email processed successfully
+2026-05-17 11:13:43,522 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-17 11:13:48,258 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:13:48,281 - INFO - Card transactions API called (5 txns)
+2026-05-17 11:13:48,282 - INFO - Email processed successfully
+2026-05-17 11:13:48,282 - INFO - Processing email: Kindly send my bank statement for April 2026....
+2026-05-17 11:13:54,356 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:13:54,376 - INFO - Statement API called for period: April 2026
+2026-05-17 11:13:54,376 - INFO - Email processed successfully
+2026-05-17 11:13:54,377 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-17 11:14:02,386 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:14:02,408 - INFO - Balance API called
+2026-05-17 11:14:02,408 - INFO - Card transactions API called (5 txns)
+2026-05-17 11:14:02,408 - INFO - Email processed successfully
+2026-05-17 11:14:02,410 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-17 11:14:08,989 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:14:09,020 - INFO - Balance API called
+2026-05-17 11:14:09,020 - WARNING - Skipped card API - invalid card number
+2026-05-17 11:14:09,020 - INFO - Email processed successfully
+2026-05-17 11:16:25,014 - INFO - BankingEmailWorkflow initialized
+2026-05-17 11:16:25,015 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-17 11:16:32,510 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:16:32,555 - INFO - Balance API called
+2026-05-17 11:16:32,555 - INFO - Email processed successfully
+2026-05-17 11:16:32,556 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-17 11:16:38,382 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:16:38,399 - INFO - Card transactions API called (5 txns)
+2026-05-17 11:16:38,399 - INFO - Email processed successfully
+2026-05-17 11:16:38,400 - INFO - Processing email: Kindly send my bank statement for April 2026....
+2026-05-17 11:16:44,407 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:16:44,425 - INFO - Statement API called for period: April 2026
+2026-05-17 11:16:44,425 - INFO - Email processed successfully
+2026-05-17 11:16:44,425 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-17 11:16:52,159 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:16:52,177 - INFO - Balance API called
+2026-05-17 11:16:52,177 - INFO - Card transactions API called (5 txns)
+2026-05-17 11:16:52,177 - INFO - Email processed successfully
+2026-05-17 11:16:52,178 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-17 11:16:59,694 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:16:59,715 - INFO - Balance API called
+2026-05-17 11:16:59,715 - WARNING - Skipped card API - invalid card number
+2026-05-17 11:16:59,715 - INFO - Email processed successfully
+2026-05-17 11:17:42,922 - INFO - BankingEmailWorkflow initialized
+2026-05-17 11:17:42,923 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-17 11:17:51,916 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:17:51,947 - INFO - Balance API called
+2026-05-17 11:17:51,947 - INFO - Email processed successfully
+2026-05-17 11:17:51,948 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-17 11:17:58,013 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:17:58,033 - INFO - Card transactions API called (5 txns)
+2026-05-17 11:17:58,033 - INFO - Email processed successfully
+2026-05-17 11:17:58,034 - INFO - Processing email: Kindly send my bank statement for April 2026....
+2026-05-17 11:18:03,954 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:18:03,971 - INFO - Statement API called for period: April 2026
+2026-05-17 11:18:03,971 - INFO - Email processed successfully
+2026-05-17 11:18:03,971 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-17 11:18:10,642 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:18:10,662 - INFO - Balance API called
+2026-05-17 11:18:10,662 - INFO - Card transactions API called (3 txns)
+2026-05-17 11:18:10,662 - INFO - Email processed successfully
+2026-05-17 11:18:10,662 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-17 11:18:18,427 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:18:18,446 - INFO - Balance API called
+2026-05-17 11:18:18,446 - WARNING - Skipped card API - invalid card number
+2026-05-17 11:18:18,446 - INFO - Email processed successfully
+2026-05-17 11:20:02,900 - INFO - BankingEmailWorkflow initialized
+2026-05-17 11:20:02,901 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-17 11:20:10,027 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:20:10,051 - INFO - Balance API called
+2026-05-17 11:20:10,051 - INFO - Email processed successfully
+2026-05-17 11:20:10,052 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-17 11:20:16,255 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:20:16,270 - INFO - Card transactions API called (5 txns)
+2026-05-17 11:20:16,270 - INFO - Email processed successfully
+2026-05-17 11:20:16,270 - INFO - Processing email: Kindly send my bank statement for April 2026....
+2026-05-17 11:20:20,667 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:20:20,682 - INFO - Statement API called for period: April 2026
+2026-05-17 11:20:20,682 - INFO - Email processed successfully
+2026-05-17 11:20:20,682 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-17 11:20:28,417 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:20:28,453 - INFO - Balance API called
+2026-05-17 11:20:28,453 - INFO - Card transactions API called (5 txns)
+2026-05-17 11:20:28,453 - INFO - Email processed successfully
+2026-05-17 11:20:28,453 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-17 11:20:35,469 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:20:35,484 - INFO - Balance API called
+2026-05-17 11:20:35,484 - WARNING - Skipped card API - invalid card number
+2026-05-17 11:20:35,484 - INFO - Email processed successfully
+2026-05-17 11:23:24,352 - INFO - BankingEmailWorkflow initialized
+2026-05-17 11:23:24,353 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-17 11:23:31,359 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:23:31,424 - INFO - Balance API called
+2026-05-17 11:23:31,425 - INFO - Email processed successfully
+2026-05-17 11:23:31,425 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-17 11:23:37,685 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:23:37,719 - INFO - Card transactions API called (5 txns)
+2026-05-17 11:23:37,719 - INFO - Email processed successfully
+2026-05-17 11:23:37,719 - INFO - Processing email: Kindly send my bank statement for April 2026....
+2026-05-17 11:23:43,382 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:23:43,396 - INFO - Statement API called for period: April 2026
+2026-05-17 11:23:43,397 - INFO - Email processed successfully
+2026-05-17 11:23:43,397 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-17 11:23:49,834 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:23:49,863 - INFO - Balance API called
+2026-05-17 11:23:49,863 - INFO - Card transactions API called (5 txns)
+2026-05-17 11:23:49,863 - INFO - Email processed successfully
+2026-05-17 11:23:49,864 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-17 11:23:57,580 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:23:57,609 - INFO - Balance API called
+2026-05-17 11:23:57,610 - WARNING - Skipped card API - invalid card number
+2026-05-17 11:23:57,610 - INFO - Email processed successfully
+2026-05-17 11:27:29,078 - INFO - BankingEmailWorkflow initialized
+2026-05-17 11:27:29,080 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-17 11:27:36,364 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:27:36,412 - INFO - Balance API called
+2026-05-17 11:27:36,412 - INFO - Email processed successfully
+2026-05-17 11:27:36,413 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-17 11:27:41,073 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:27:41,089 - INFO - Card transactions API called (5 txns)
+2026-05-17 11:27:41,089 - INFO - Email processed successfully
+2026-05-17 11:27:41,089 - INFO - Processing email: Kindly send my bank statement for April 2026....
+2026-05-17 11:27:45,689 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:27:45,737 - INFO - Statement API called for period: April 2026
+2026-05-17 11:27:45,737 - INFO - Email processed successfully
+2026-05-17 11:27:45,739 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-17 11:27:53,447 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:27:53,474 - INFO - Balance API called
+2026-05-17 11:27:53,475 - INFO - Card transactions API called (5 txns)
+2026-05-17 11:27:53,475 - INFO - Email processed successfully
+2026-05-17 11:27:53,475 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-17 11:28:01,166 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:28:01,201 - INFO - Balance API called
+2026-05-17 11:28:01,201 - WARNING - Skipped card API - invalid card number
+2026-05-17 11:28:01,201 - INFO - Email processed successfully
+2026-05-17 11:28:54,143 - INFO - BankingEmailWorkflow initialized
+2026-05-17 11:28:54,144 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-17 11:29:01,446 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:29:01,475 - INFO - Balance API called
+2026-05-17 11:29:01,475 - INFO - Email processed successfully
+2026-05-17 11:29:01,476 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-17 11:29:07,978 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:29:08,011 - INFO - Card transactions API called (5 txns)
+2026-05-17 11:29:08,011 - INFO - Email processed successfully
+2026-05-17 11:29:08,011 - INFO - Processing email: Kindly send my bank statement for April 2026....
+2026-05-17 11:29:14,300 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:29:14,325 - INFO - Statement API called for period: April 2026
+2026-05-17 11:29:14,326 - INFO - Email processed successfully
+2026-05-17 11:29:14,327 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-17 11:29:21,336 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:29:21,366 - INFO - Balance API called
+2026-05-17 11:29:21,366 - INFO - Card transactions API called (5 txns)
+2026-05-17 11:29:21,366 - INFO - Email processed successfully
+2026-05-17 11:29:21,367 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-17 11:29:30,246 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:29:30,276 - INFO - Balance API called
+2026-05-17 11:29:30,277 - WARNING - Skipped card API - invalid card number
+2026-05-17 11:29:30,277 - INFO - Email processed successfully
+2026-05-17 11:29:59,056 - INFO - BankingEmailWorkflow initialized
+2026-05-17 11:30:03,655 - INFO - BankingEmailWorkflow initialized
+2026-05-17 11:30:25,640 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-17 11:30:33,255 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 11:30:33,302 - INFO - Balance API called
+2026-05-17 11:30:33,302 - INFO - Email processed successfully
+2026-05-17 19:45:48,337 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-17 19:46:07,279 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 19:46:07,314 - INFO - Balance API called
+2026-05-17 19:46:07,315 - INFO - Email processed successfully
+2026-05-17 19:46:29,819 - INFO - BankingEmailWorkflow initialized
+2026-05-17 19:46:41,171 - INFO - BankingEmailWorkflow initialized
+2026-05-17 19:47:08,088 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-17 19:47:25,653 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 19:47:25,748 - INFO - Card transactions API called (5 txns)
+2026-05-17 19:47:25,748 - INFO - Email processed successfully
+2026-05-17 19:48:11,298 - INFO - BankingEmailWorkflow initialized
+2026-05-17 19:48:11,300 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-17 19:48:22,489 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 19:48:22,553 - INFO - Balance API called
+2026-05-17 19:48:22,553 - INFO - Email processed successfully
+2026-05-17 19:48:22,555 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-17 19:48:31,493 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 19:48:31,520 - INFO - Card transactions API called (5 txns)
+2026-05-17 19:48:31,520 - INFO - Email processed successfully
+2026-05-17 19:48:31,521 - INFO - Processing email: Kindly send my bank statement for April 2026....
+2026-05-17 19:48:39,413 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 19:48:39,440 - INFO - Statement API called for period: April 2026
+2026-05-17 19:48:39,441 - INFO - Email processed successfully
+2026-05-17 19:48:39,442 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-17 19:48:50,659 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 19:48:50,689 - INFO - Balance API called
+2026-05-17 19:48:50,689 - INFO - Card transactions API called (5 txns)
+2026-05-17 19:48:50,689 - INFO - Email processed successfully
+2026-05-17 19:48:50,691 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-17 19:48:59,732 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 19:48:59,756 - INFO - Balance API called
+2026-05-17 19:48:59,756 - WARNING - Skipped card API - invalid card number
+2026-05-17 19:48:59,756 - INFO - Email processed successfully
+2026-05-17 19:58:07,159 - INFO - BankingEmailWorkflow initialized
+2026-05-17 19:58:16,941 - INFO - BankingEmailWorkflow initialized
+2026-05-17 19:58:45,594 - INFO - Processing email: you fucking asshole give me my account balance for account 1234567890...
+2026-05-17 19:59:01,410 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 19:59:01,469 - INFO - Balance API called
+2026-05-17 19:59:01,470 - INFO - Email processed successfully
+2026-05-17 20:02:25,748 - INFO - BankingEmailWorkflow initialized
+2026-05-17 20:02:25,749 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-17 20:02:53,065 - INFO - BankingEmailWorkflow initialized
+2026-05-17 20:02:53,067 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-17 20:04:31,185 - INFO - BankingEmailWorkflow initialized
+2026-05-17 20:04:31,186 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-17 20:04:40,820 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 20:04:40,903 - INFO - Balance API called
+2026-05-17 20:04:40,903 - INFO - Email processed successfully
+2026-05-17 20:04:40,905 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-17 20:04:48,687 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 20:04:48,711 - INFO - Card transactions API called (5 txns)
+2026-05-17 20:04:48,711 - INFO - Email processed successfully
+2026-05-17 20:04:48,711 - INFO - Processing email: Kindly send my bank statement for April 2026....
+2026-05-17 20:04:56,318 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 20:04:56,369 - INFO - Statement API called for period: April 2026
+2026-05-17 20:04:56,369 - INFO - Email processed successfully
+2026-05-17 20:04:56,371 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-17 20:05:06,617 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 20:05:06,652 - INFO - Balance API called
+2026-05-17 20:05:06,652 - INFO - Card transactions API called (5 txns)
+2026-05-17 20:05:06,652 - INFO - Email processed successfully
+2026-05-17 20:05:06,654 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-17 20:05:16,283 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 20:05:16,316 - INFO - Balance API called
+2026-05-17 20:05:16,316 - WARNING - Skipped card API - invalid card number
+2026-05-17 20:05:16,316 - INFO - Email processed successfully
+2026-05-17 20:15:23,124 - INFO - BankingEmailWorkflow initialized
+2026-05-17 20:15:23,126 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-17 20:18:44,618 - INFO - BankingEmailWorkflow initialized
+2026-05-17 20:18:44,618 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-17 20:18:52,439 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 20:18:52,467 - INFO - Balance API called
+2026-05-17 20:18:52,468 - INFO - Email processed successfully
+2026-05-17 20:18:52,469 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-17 20:18:58,372 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 20:18:58,386 - INFO - Card transactions API called (5 txns)
+2026-05-17 20:18:58,386 - INFO - Email processed successfully
+2026-05-17 20:18:58,386 - INFO - Processing email: Kindly send my bank statement for April 2026....
+2026-05-17 20:19:03,891 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 20:19:03,904 - INFO - Statement API called for period: April 2026
+2026-05-17 20:19:03,905 - INFO - Email processed successfully
+2026-05-17 20:19:03,905 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-17 20:19:11,258 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 20:19:11,273 - INFO - Balance API called
+2026-05-17 20:19:11,273 - INFO - Card transactions API called (5 txns)
+2026-05-17 20:19:11,273 - INFO - Email processed successfully
+2026-05-17 20:19:11,273 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-17 20:19:18,331 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 20:19:18,346 - INFO - Balance API called
+2026-05-17 20:19:18,346 - WARNING - Skipped card API - invalid card number
+2026-05-17 20:19:18,346 - INFO - Email processed successfully
+2026-05-17 21:00:37,045 - INFO - BankingEmailWorkflow initialized
+2026-05-17 21:00:37,046 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-17 21:00:46,507 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:00:46,535 - INFO - Balance API called
+2026-05-17 21:00:46,535 - INFO - Email processed successfully
+2026-05-17 21:00:46,536 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-17 21:00:50,395 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:00:50,416 - INFO - Card transactions API called (5 txns)
+2026-05-17 21:00:50,416 - INFO - Email processed successfully
+2026-05-17 21:00:50,416 - INFO - Processing email: Kindly send my bank statement for April 2026....
+2026-05-17 21:00:54,773 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:00:54,798 - INFO - Statement API called for period: April 2026
+2026-05-17 21:00:54,798 - INFO - Email processed successfully
+2026-05-17 21:00:54,799 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-17 21:01:00,893 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:01:00,918 - INFO - Balance API called
+2026-05-17 21:01:00,919 - INFO - Card transactions API called (5 txns)
+2026-05-17 21:01:00,919 - INFO - Email processed successfully
+2026-05-17 21:01:00,920 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-17 21:01:05,530 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:01:05,554 - INFO - Balance API called
+2026-05-17 21:01:05,554 - INFO - Email processed successfully
+2026-05-17 21:08:04,995 - INFO - BankingEmailWorkflow initialized
+2026-05-17 21:09:00,948 - INFO - BankingEmailWorkflow initialized
+2026-05-17 21:36:33,011 - INFO - BankingEmailWorkflow initialized
+2026-05-17 21:36:33,012 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-17 21:36:39,871 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:36:39,894 - INFO - Balance API called
+2026-05-17 21:36:39,894 - INFO - Email processed successfully
+2026-05-17 21:36:39,895 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-17 21:36:44,810 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:36:44,824 - INFO - Card transactions API called (5 txns)
+2026-05-17 21:36:44,824 - INFO - Email processed successfully
+2026-05-17 21:36:44,825 - INFO - Processing email: Kindly send my bank statement for April 2026....
+2026-05-17 21:36:49,111 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:36:49,162 - INFO - Statement API called for period: April 2026
+2026-05-17 21:36:49,162 - INFO - Email processed successfully
+2026-05-17 21:36:49,163 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-17 21:36:54,388 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:36:54,413 - INFO - Balance API called
+2026-05-17 21:36:54,413 - INFO - Card transactions API called (5 txns)
+2026-05-17 21:36:54,413 - INFO - Email processed successfully
+2026-05-17 21:36:54,414 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-17 21:36:58,625 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 21:36:58,640 - INFO - Balance API called
+2026-05-17 21:36:58,640 - WARNING - Skipped card API - invalid card number
+2026-05-17 21:36:58,640 - INFO - Email processed successfully
+2026-05-18 07:58:42,247 - INFO - BankingEmailWorkflow initialized
+2026-05-18 07:58:42,247 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-18 07:58:55,388 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 07:58:55,437 - INFO - Balance API called
+2026-05-18 07:58:55,437 - INFO - Email processed successfully
+2026-05-18 07:58:55,438 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-18 07:58:59,832 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 07:58:59,852 - INFO - Card transactions API called (5 txns)
+2026-05-18 07:58:59,852 - INFO - Email processed successfully
+2026-05-18 07:58:59,853 - INFO - Processing email: Kindly send my bank statement for April 2026....
+2026-05-18 07:59:03,851 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 07:59:03,884 - INFO - Statement API called for period: April 2026
+2026-05-18 07:59:03,884 - INFO - Email processed successfully
+2026-05-18 07:59:03,884 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-18 07:59:09,176 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 07:59:09,190 - INFO - Balance API called
+2026-05-18 07:59:09,190 - INFO - Card transactions API called (5 txns)
+2026-05-18 07:59:09,190 - INFO - Email processed successfully
+2026-05-18 07:59:09,191 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-18 07:59:13,372 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 07:59:13,387 - INFO - Balance API called
+2026-05-18 07:59:13,387 - WARNING - Skipped card API - invalid card number
+2026-05-18 07:59:13,387 - INFO - Email processed successfully
+2026-05-18 08:07:31,960 - INFO - BankingEmailWorkflow initialized
+2026-05-18 08:07:44,532 - INFO - BankingEmailWorkflow initialized
+2026-05-18 08:09:16,442 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-18 08:09:26,795 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:09:26,844 - INFO - Balance API called
+2026-05-18 08:09:26,844 - INFO - Card transactions API called (5 txns)
+2026-05-18 08:09:26,844 - INFO - Email processed successfully
+2026-05-18 08:48:42,256 - INFO - BankingEmailWorkflow initialized
+2026-05-18 08:48:42,257 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-18 08:48:48,965 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:48:48,990 - INFO - Balance API called
+2026-05-18 08:48:48,990 - INFO - Email processed successfully
+2026-05-18 08:48:48,991 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-18 08:48:53,081 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:48:53,096 - INFO - Card transactions API called (5 txns)
+2026-05-18 08:48:53,096 - INFO - Email processed successfully
+2026-05-18 08:48:53,096 - INFO - Processing email: Kindly send my bank statement for April 2026....
+2026-05-18 08:48:56,970 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:48:56,983 - INFO - Statement API called for period: April 2026
+2026-05-18 08:48:56,983 - INFO - Email processed successfully
+2026-05-18 08:48:56,983 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-18 08:49:01,233 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:49:01,245 - INFO - Balance API called
+2026-05-18 08:49:01,245 - INFO - Card transactions API called (5 txns)
+2026-05-18 08:49:01,245 - INFO - Email processed successfully
+2026-05-18 08:49:01,245 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-18 08:49:05,585 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:49:05,597 - INFO - Balance API called
+2026-05-18 08:49:05,597 - WARNING - Skipped card API - invalid card number
+2026-05-18 08:49:05,598 - INFO - Email processed successfully
+2026-05-18 08:50:12,476 - INFO - BankingEmailWorkflow initialized
+2026-05-18 08:50:38,107 - INFO - Processing email: give account balance for 5647896541...
+2026-05-18 08:50:44,729 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:50:44,768 - ERROR - Balance API error: Invalid account number
+2026-05-18 08:50:44,768 - INFO - Email processed successfully
+2026-05-18 08:51:22,991 - INFO - Processing email: give credit card balance for 5647896541...
+2026-05-18 08:51:29,190 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:51:29,210 - INFO - Email processed successfully
+2026-05-18 08:51:51,430 - INFO - Processing email: give account balance for 5647896541...
+2026-05-18 08:51:57,424 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:51:57,445 - ERROR - Balance API error: Invalid account number
+2026-05-18 08:51:57,445 - INFO - Email processed successfully
+2026-05-18 08:54:02,079 - INFO - BankingEmailWorkflow initialized
+2026-05-18 08:54:02,080 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-18 08:54:08,130 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:54:08,172 - INFO - Balance API called
+2026-05-18 08:54:08,172 - INFO - Email processed successfully
+2026-05-18 08:54:08,173 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-18 08:54:12,281 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:54:12,296 - INFO - Card transactions API called (5 txns)
+2026-05-18 08:54:12,296 - INFO - Email processed successfully
+2026-05-18 08:54:12,297 - INFO - Processing email: Kindly send my bank statement for April 2026....
+2026-05-18 08:54:15,790 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:54:15,803 - INFO - Statement API called for period: 2026-04-01
+2026-05-18 08:54:15,803 - INFO - Email processed successfully
+2026-05-18 08:54:15,804 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-18 08:54:20,967 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:54:20,980 - INFO - Balance API called
+2026-05-18 08:54:20,980 - INFO - Card transactions API called (5 txns)
+2026-05-18 08:54:20,980 - INFO - Email processed successfully
+2026-05-18 08:54:20,980 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-18 08:54:25,303 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:54:25,316 - INFO - Balance API called
+2026-05-18 08:54:25,316 - WARNING - Skipped card API - invalid card number
+2026-05-18 08:54:25,316 - INFO - Email processed successfully
+2026-05-18 08:56:43,347 - INFO - BankingEmailWorkflow initialized
+2026-05-18 08:56:43,348 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-18 08:56:49,744 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:56:49,772 - INFO - Balance API called
+2026-05-18 08:56:49,772 - INFO - Email processed successfully
+2026-05-18 08:56:49,772 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-18 08:56:53,204 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:56:53,220 - INFO - Card transactions API called (5 txns)
+2026-05-18 08:56:53,220 - INFO - Email processed successfully
+2026-05-18 08:56:53,221 - INFO - Processing email: Kindly send my bank statement for April 2026....
+2026-05-18 08:56:56,816 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:56:56,831 - INFO - Statement API called for period: April 2026
+2026-05-18 08:56:56,831 - INFO - Email processed successfully
+2026-05-18 08:56:56,832 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-18 08:57:02,184 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:57:02,199 - INFO - Balance API called
+2026-05-18 08:57:02,199 - INFO - Card transactions API called (5 txns)
+2026-05-18 08:57:02,199 - INFO - Email processed successfully
+2026-05-18 08:57:02,199 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-18 08:57:07,434 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:57:07,451 - INFO - Balance API called
+2026-05-18 08:57:07,451 - WARNING - Skipped card API - invalid card number
+2026-05-18 08:57:07,451 - INFO - Email processed successfully
+2026-05-18 08:58:56,751 - INFO - BankingEmailWorkflow initialized
+2026-05-18 08:58:56,752 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-18 08:59:02,945 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:59:02,967 - INFO - Balance API called
+2026-05-18 08:59:02,967 - INFO - Email processed successfully
+2026-05-18 08:59:02,967 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-18 08:59:07,039 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:59:07,053 - INFO - Card transactions API called (5 txns)
+2026-05-18 08:59:07,053 - INFO - Email processed successfully
+2026-05-18 08:59:07,053 - INFO - Processing email: Kindly send my bank statement for April 2026....
+2026-05-18 08:59:11,045 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:59:11,059 - INFO - Statement API called for period: April 2026
+2026-05-18 08:59:11,059 - INFO - Email processed successfully
+2026-05-18 08:59:11,059 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-18 08:59:16,572 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:59:16,585 - INFO - Balance API called
+2026-05-18 08:59:16,585 - INFO - Card transactions API called (5 txns)
+2026-05-18 08:59:16,585 - INFO - Email processed successfully
+2026-05-18 08:59:16,586 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-18 08:59:21,295 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:59:21,309 - INFO - Balance API called
+2026-05-18 08:59:21,310 - WARNING - Skipped card API - invalid card number
+2026-05-18 08:59:21,310 - INFO - Email processed successfully
+2026-05-18 08:59:56,719 - INFO - BankingEmailWorkflow initialized
+2026-05-18 09:00:13,604 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-18 09:00:22,701 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:00:22,749 - INFO - Balance API called
+2026-05-18 09:00:22,750 - INFO - Card transactions API called (5 txns)
+2026-05-18 09:00:22,750 - INFO - Email processed successfully
+2026-05-18 09:01:46,239 - INFO - BankingEmailWorkflow initialized
+2026-05-18 09:01:46,239 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-18 09:01:52,904 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:01:52,927 - INFO - Balance API called
+2026-05-18 09:01:52,927 - INFO - Email processed successfully
+2026-05-18 09:01:52,927 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-18 09:01:56,989 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:01:57,028 - INFO - Card transactions API called (5 txns)
+2026-05-18 09:01:57,028 - INFO - Email processed successfully
+2026-05-18 09:01:57,028 - INFO - Processing email: Kindly send my bank statement for April 2026....
+2026-05-18 09:02:00,842 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:02:00,856 - INFO - Statement API called for period: April 2026
+2026-05-18 09:02:00,856 - INFO - Email processed successfully
+2026-05-18 09:02:00,856 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-18 09:02:05,985 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:02:05,998 - INFO - Balance API called
+2026-05-18 09:02:05,998 - INFO - Card transactions API called (5 txns)
+2026-05-18 09:02:05,998 - INFO - Email processed successfully
+2026-05-18 09:02:05,998 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-18 09:02:11,042 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:02:11,057 - INFO - Balance API called
+2026-05-18 09:02:11,057 - WARNING - Skipped card API - invalid card number
+2026-05-18 09:02:11,057 - INFO - Email processed successfully
+2026-05-18 09:05:07,204 - INFO - BankingEmailWorkflow initialized
+2026-05-18 09:05:07,205 - INFO - Processing email: Please provide my savings account balance for account number 1234567890....
+2026-05-18 09:05:14,022 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:05:14,046 - INFO - Balance API called
+2026-05-18 09:05:14,046 - INFO - Email processed successfully
+2026-05-18 09:05:14,047 - INFO - Processing email: Please share my last 5 credit card transactions for card 4567XXXX8901....
+2026-05-18 09:05:18,152 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:05:18,167 - INFO - Card transactions API called (5 txns)
+2026-05-18 09:05:18,167 - INFO - Email processed successfully
+2026-05-18 09:05:18,167 - INFO - Processing email: Kindly send my bank statement for April 2026....
+2026-05-18 09:05:22,216 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:05:22,232 - INFO - Statement API called for period: April 2026
+2026-05-18 09:05:22,232 - INFO - Email processed successfully
+2026-05-18 09:05:22,232 - INFO - Processing email: Please share my account balance for account 1234567890 and also send last 3 transactions of my credi...
+2026-05-18 09:05:27,847 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:05:27,876 - INFO - Balance API called
+2026-05-18 09:05:27,876 - INFO - Card transactions API called (5 txns)
+2026-05-18 09:05:27,876 - INFO - Email processed successfully
+2026-05-18 09:05:27,877 - INFO - Processing email: Please provide balance for account 1234567890 and card transactions for card 999999999....
+2026-05-18 09:05:32,450 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:05:32,463 - INFO - Balance API called
+2026-05-18 09:05:32,463 - WARNING - Skipped card API - invalid card number
+2026-05-18 09:05:32,463 - INFO - Email processed successfully
+2026-05-18 09:07:28,982 - INFO - BankingEmailWorkflow initialized
+2026-05-18 09:07:35,419 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:07:40,314 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:07:44,548 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:07:50,411 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:07:55,420 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:07:55,433 - WARNING - Skipped card API - invalid card number
+2026-05-18 09:13:07,052 - INFO - BankingEmailWorkflow initialized
+2026-05-18 09:13:15,322 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:13:19,538 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:13:23,713 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:13:28,855 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:13:34,130 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:13:34,142 - WARNING - Skipped card API - invalid card number
+2026-05-18 09:19:49,445 - INFO - BankingEmailWorkflow initialized
+2026-05-18 09:20:04,618 - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
