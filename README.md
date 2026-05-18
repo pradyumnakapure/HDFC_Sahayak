@@ -292,7 +292,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## Scenario 1 — Balance Enquiry
+## Scenario 1 Balance Enquiry
 
 Customer requests account balance.
 
