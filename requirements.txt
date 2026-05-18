@@ -1,0 +1,13 @@
+# Core
+pydantic==2.10.6 # For data validation and settings management
+
+# LLM + Agentic framework
+langchain==0.3.14 
+langgraph==0.2.60 # Provides a graph-based approach to building complex agent workflows.
+langchain-ollama==0.2.2 # Allows us to connect to our local Llama 3.2 model easily.
+crewai==0.80.0  # Lets us create intelligent agents (HDFC Sahayak Agent, Validation Agent).
+
+# API & utils
+fastapi==0.115.6  # Modern, very fast web framework for building APIs.
+uvicorn==0.32.1  # Lightning-fast ASGI server to run FastAPI.
+
