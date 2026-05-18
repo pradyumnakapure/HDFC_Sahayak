@@ -1,121 +1,401 @@
-**Intelligent Email Processing & Automated Customer Response System**
+# Intelligent Email Processing & Automated Customer Response System
 
 **Task – 1001**  
-**Date:** 16-05-2026  
+**Date:** 16-05-2026
 
-An AI-powered intelligent automation system that processes customer banking emails using **Agentic AI architecture**, Llama 3.2, and Python.
+HDFC Sahayak - An Banking Email Automation Agent built using **Agentic AI architecture**, **Llama 3.2**, **CrewAI**, and **Python**.
 
+---
 
-**Problem Statement**
+# Problem Statement
 
-A financial institution receives customer emails regarding:
+A financial institution receives customer emails related to:
+
 - Account balance enquiries
-- Credit card usage / transaction enquiries
+- Credit card transaction enquiries
 - Account statement requests
-- Multiple requests in a single email
+- Multiple requests within a single email
 
+---
 
-This project automates the entire process using **Agentic AI**.
+# Features Implemented
 
-**Features Implemented**
+### Multi-Intent Detection
+Supports multiple requests within a single customer email.
 
-- **Multi-intent detection** in a single email (Scenario 4)
-- **Entity extraction** (account number, card number, transaction count, period)
-- **Sentiment analysis** (neutral, positive, negative, urgent)
-- **Data validation** using mock core banking APIs
-- **Smart API decision engine** – calls only required APIs
-- **Partial failure handling** (Scenario 5) – returns successful results + polite error for invalid data
-- **Professional response email generation** (matches PDF sample)
-- **Audit logging** for all steps
-- **Clean, modular, production-ready architecture**
+**Example:**
 
+- Account balance enquiry
+- Credit card transaction request
+- Statement request
+- Combined requests in one email
 
-**Technology Stack**
+---
 
-- **Language**: Python
-- **LLM**: Llama 3.2 (via Ollama – local & private)
-- **Agent Framework**: CrewAI
-- **Structured Output**: Pydantic + LangChain
-- **Mock APIs**: Custom Python functions with in-memory database
-- **Architecture**: Agentic AI with specialized agents
+### Entity Extraction
 
+Extracts important banking entities such as:
 
-## Project Structure
+- Account Number
+- Card Number
+- Transaction Count
+- Time Period
+
+---
+
+### Sentiment Analysis
+
+Detects customer tone:
+
+- Neutral
+- Positive
+- Negative
+- Urgent
+
+---
+
+### Smart API Decision Engine
+
+Calls **only the required banking APIs** based on detected intent.
+
+---
+
+### Data Validation
+
+Validates customer information using **mock core banking APIs**.
+
+---
+
+### Partial Failure Handling
+
+Supports graceful error handling.
+
+If one request succeeds and another fails:
+
+- Returns successful results
+- Adds polite failure messaging for invalid inputs
+
+---
+
+### Professional Response Generation
+
+Generates professional banking response emails matching the provided specification.
+
+---
+
+### Audit Logging
+
+Logs:
+
+- Input processing
+- Intent detection
+- API calls
+- Validation
+- Final responses
+
+---
+
+### Production-Ready Architecture
+
+- Modular design
+- Scalable workflow engine
+- Specialized AI agents
+- Clean separation of concerns
+
+---
+
+# Technology Stack
+
+| Component | Technology |
+|------------|-------------|
+| Language | Python |
+| LLM | Llama 3.2 (Ollama) |
+| Agent Framework | CrewAI |
+| Structured Output | Pydantic + LangChain |
+| APIs | Mock Core Banking APIs |
+| Backend | FastAPI |
+| Logging | Python Logging |
+| Architecture | Agentic AI |
+
+---
+
+# Project Structure
 
 ```bash
 intelligent-email-automation/
 │
-├── agents/                  # AI Agents
+├── agents/
 │   ├── email_understanding_agent.py
 │   └── validation_agent.py
-├── apis/                    # Mock Core Banking APIs
+│
+├── apis/
 │   └── mock_apis.py
-├── models/                  # Data schemas (Pydantic)
+│
+├── models/
 │   └── schemas.py
-├── prompts/                 # LLM Prompts
+│
+├── prompts/
 │   └── intent_prompt.py
-├── workflows/               # Main orchestration logic
+│
+├── workflows/
 │   └── banking_workflow.py
-├── utils/                   # Helper functions & logging
+│
+├── utils/
 │   └── helpers.py
-├── tests/                   # Test cases
+│
+├── tests/
 │   └── test_scenarios.py
-├── config/                  # Configuration
+│
+├── config/
 │   └── settings.py
-├── logs/                    # Audit logs
+│
+├── logs/
 │   └── app.log
+│
 ├── app.py
 ├── main.py
 ├── requirements.txt
 └── README.md
+```
 
-**How to Run the Project**
+---
 
-**1. Prerequisites**
-1. Install **Ollama** from https://ollama.com
-2. Pull the model:
-   ```bash
-   ollama pull llama3.2
-Setup
-** 1. Create virtual environment **
-**2. Activate it**
-venv\Scripts\activate     
+# System Architecture
 
-**3. Install dependencies**
+```text
+Customer Email
+      │
+      ▼
+Email Understanding Agent
+(Intent + Entities + Sentiment)
+      │
+      ▼
+Validation Agent
+(Data Verification)
+      │
+      ▼
+Workflow Orchestrator
+(Intent Routing)
+      │
+      ▼
+Mock Banking APIs
+(Account / Card / Statements)
+      │
+      ▼
+Response Generator
+      │
+      ▼
+Final Customer Email
+```
+
+---
+
+# Setup Instructions
+
+## 1. Prerequisites
+
+Install **Ollama**:
+
+https://ollama.com
+
+Pull the required model:
+
+```bash
+ollama pull llama3.2
+```
+
+---
+
+## 2. Create Virtual Environment
+
+### Windows
+
+```bash
+python -m venv venv
+```
+
+### Linux / macOS
+
+```bash
+python3 -m venv venv
+```
+
+---
+
+## 3. Activate Environment
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+### Linux / macOS
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+## 4. Install Dependencies
+
+```bash
 pip install -r requirements.txt
-Run the System
-python main.py  # for all 5 test cases
-pytest tests/ -v # for testing cases
-python -m uvicorn app:app --reload --port 8000  # for FastAPI
+```
 
+---
 
-**Test Results**
-The system correctly handles:
+# Run the Project
 
-Scenario 1 - Balance enquiry 
-Scenario 2 - Credit card transactions
-Scenario 3 - Statement Request
-Scenario 4 - Multiple requests in one email (both balance + card)
-Scenario 5 - Partial failure (valid account + invalid card)
+## Run Main Workflow
 
+Executes all test scenarios.
 
-**Key Achievements**
+```bash
+python main.py
+```
 
-Full Agentic AI design with specialized agents - HDFC Sahayak
-Structured output using Pydantic 
-Smart validation and partial failure handling
-Clean, modular, extensible code
-Complete folder structure as specified in the task
-Logging for auditability
+---
 
+## Run Test Cases
 
-**Assumptions**
+```bash
+pytest tests/ -v
+```
 
-Core banking APIs are mocked
-No real customer data is used
-Email content is provided as plain text
-Authentication is simplified
+---
 
+## Run FastAPI Server
 
-Author: Pradyumna Kapure    
-Project Completed: 18 May 2026
+```bash
+python -m uvicorn app:app --reload --port 8000
+```
+
+API available at:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+---
+
+# Test Scenarios Covered
+
+| Scenario | Status |
+|-----------|---------|
+| Balance Enquiry | Yes |
+| Credit Card Transactions | Yes |
+| Statement Request | Yes |
+| Multi-Intent Email | Yes |
+| Partial Failure Handling | Yes |
+
+---
+
+## Scenario 1 — Balance Enquiry
+
+Customer requests account balance.
+
+**Result:**  
+Intent detected → account validated → balance API called → response generated.
+
+---
+
+## Scenario 2 — Credit Card Transactions
+
+Customer requests recent card transactions.
+
+**Result:**  
+Card validated → transaction API called → response generated.
+
+---
+
+## Scenario 3 — Statement Request
+
+Customer requests account statement.
+
+**Result:**  
+Statement workflow executed successfully.
+
+---
+
+## Scenario 4 — Multiple Requests
+
+Single email containing:
+
+- Balance enquiry
+- Card transaction request
+
+**Result:**  
+Multiple intents detected and processed independently.
+
+---
+
+## Scenario 5 — Partial Failure
+
+Input contains:
+
+- Valid account
+- Invalid card
+
+**Result:**  
+
+- Balance request succeeds
+- Card request fails gracefully
+- Combined professional response returned
+
+---
+
+# Key Achievements
+
+- Full Agentic AI design with specialized agents
+
+- Multi-intent email processing
+
+- Structured outputs using Pydantic
+
+- Smart API routing
+
+- Validation layer
+
+- Partial failure handling
+
+- Professional email generation
+
+- Logging and auditability
+
+- Clean modular architecture
+
+---
+
+# Assumptions
+
+- Core banking APIs are mocked.
+- No real customer data is used.
+- Email content is provided as plain text.
+- Authentication is simplified for demonstration purposes.
+
+---
+
+# Future Improvements
+
+Potential enhancements:
+
+- Real banking API integration
+- Authentication & authorization
+- Database persistence
+- Email server integration
+- Vector memory for conversation history
+- Docker deployment
+- Kubernetes orchestration
+- Monitoring dashboard
+
+---
+
+# Author
+
+**Pradyumna Kapure**
+
+Project Completed: **18 May 2026**
+
+---
