@@ -4,7 +4,7 @@ import logging
 from datetime import datetime
 
 def setup_logging():
-    """Setup logging for auditability (PDF requirement)"""
+    """Setup logging for auditability """
     logging.basicConfig(
         filename='logs/app.log',
         level=logging.INFO,
